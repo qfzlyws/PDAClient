@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--PDA客戶端配置文件 -->
+<client>
+	<ip-info>
+		<ip>172.24</ip>
+		<serverurl>http://localhost:8080/PDAWebServices/services/PDAServices</serverurl>
+		<fact_no>B071</fact_no>
+	</ip-info>
+	<ip-info>
+		<ip>172.17</ip>
+		<serverurl>http://172.24.5.145</serverurl>
+		<fact_no>B071</fact_no>
+	</ip-info>
+	<ip-info>
+		<ip>192.168</ip>
+		<serverurl>http://172.24.5.145</serverurl>
+		<fact_no>B071</fact_no>
+	</ip-info>
+	<ip-info>
+		<ip>172.22</ip>
+		<serverurl>http://172.22.216.104:85</serverurl>
+		<fact_no>B0OL</fact_no>
+	</ip-info>
+	<ip-info>
+		<ip>169.254</ip>
+		<serverurl>http://172.24.5.145</serverurl>
+		<fact_no>B071</fact_no>
+	</ip-info>
+	
+	<system-info>
+		<system>B071-物流管理系統</system>
+		<dbSchema>CRWMS</dbSchema>
+	</system-info>
+	
+	<system-info>
+		<system>B071-物流管理系統(Test)</system>
+		<dbSchema>jdbc/testcrwms</dbSchema>
+	</system-info>
+	
+	<ini-info>
+		<language>1.中文</language>
+		<system>B071-出貨掃描系統(福泰)</system>
+		<userno></userno>
+		<password></password>
+		<stano>99</stano>
+	</ini-info>
+</client>
